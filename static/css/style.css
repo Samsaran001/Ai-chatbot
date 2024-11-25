@@ -1,0 +1,25 @@
+.fixed-panel {
+    min-height: 400px;
+    max-height: 400px;
+    background-color: #7f7788;
+    color: white;
+    overflow: auto;
+}
+
+.media-list {
+    overflow: auto;
+    clear: both;
+    display: table;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 6px solid transparent;
+    border-radius: 25px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+}
